@@ -1,0 +1,23 @@
+let drink = {
+    caffe: 'latte', 
+    coca: 'cola'
+}
+
+let newDrink = {
+    lemon: 'tea',
+    orange: 'juice',
+    drink
+}
+
+//.console.log(newDrink)
+
+let newDrink_spread = {
+    lemon: 'tea',
+    orange: 'juice',
+    ...drink
+}
+
+drink.coca = "zero"
+console.log(drink)
+console.log(newDrink)
+console.log(newDrink_spread)
